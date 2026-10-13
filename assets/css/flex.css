@@ -1,0 +1,23 @@
+.flex-container{
+    max-width: 800px;
+    height: 500px;
+    border: 1px double black;
+    margin: 50px auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-items{
+    border: 1px solid black;
+    margin: 50px auto;
+    height: 100px;
+    width: 100px;
+    padding: 1cm;
+    display: flex;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+.flex-items img{
+    width: 100%;
+}

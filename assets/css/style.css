@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    list-style: none;
+}
+.nav-items a{
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
